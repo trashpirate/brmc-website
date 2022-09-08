@@ -4,10 +4,11 @@
 
 .btn {
   padding: 8px 20px;
-  border-radius: 2px;
+  border-radius: 5px;
   outline: none;
   border: none;
   cursor: pointer;
+  margin: 10px!important;
 }
 
 .btn--primary {
@@ -32,6 +33,7 @@
 .btn--large {
   padding: 12px 26px;
   font-size: 20px;
+  font-weight: 900;
 }
 
 .btn--large:hover,

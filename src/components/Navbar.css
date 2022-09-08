@@ -24,9 +24,11 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #1df5e6;
 }
 
 .fa-typo3 {
@@ -36,7 +38,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(6, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -47,6 +49,8 @@
 
 .nav-item {
   height: 80px;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .nav-links {
@@ -75,7 +79,7 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1150px) {
   .NavbarItems {
     position: relative;
   }
@@ -114,10 +118,11 @@
   }
 
   .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
+    /* position: absolute;
+    top: 30;
+    left: 10; */
+    
+    transform: translate(-50%, 10%);
   }
 
   .menu-icon {

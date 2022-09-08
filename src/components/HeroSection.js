@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import './GlobalStyles.css';
 
 function HeroSection() {
   return (
@@ -19,28 +20,31 @@ function HeroSection() {
           <div className='hero-btns'>
             <h1>Welcome To BoredRAT</h1>
             <Button
+              to='https://bscscan.com/'
               className='btns'
               buttonStyle='btn--outline'
               buttonSize='btn--large'
             >
-              GET STARTED
+              SMART CONTRACT
             </Button>
             <br></br>
             <Button
+             to='https://bscscan.com/'
               className='btns'
               buttonStyle='btn--primary'
               buttonSize='btn--large'
               onClick={console.log('hey')}
             >
-              WATCH TRAILER <i className='far fa-play-circle' />
+              PancakeSwap
             </Button>
             <Button
+              to='https://bscscan.com/'
               className='btns'
               buttonStyle='btn--primary'
               buttonSize='btn--large'
               onClick={console.log('hey')}
             >
-              WATCH TRAILER <i className='far fa-play-circle' />
+              Poocoin
             </Button>
           </div>
         </div>
