@@ -7,6 +7,24 @@
   align-items: center;
 }
 
+.footer-title {
+  color: white;
+  padding: 50px 0px;
+}
+
+.footer-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #1df5e6;
+}
+
 .footer-subscription {
   display: flex;
   flex-direction: column;
@@ -95,8 +113,9 @@
 
 /* Social Icons */
 .social-icon-link {
-  color: #fff;
-  font-size: 24px;
+  color: aqua;
+  font-size: 50px;
+  padding: 20px;
 }
 
 .social-media {
@@ -117,7 +136,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  width: 40%;
 }
 
 .social-logo {
