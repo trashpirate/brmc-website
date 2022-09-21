@@ -9,7 +9,7 @@ function About() {
       <h1>What is BoredRAT?</h1>
       <div className='about_section'>
       <p className='about_text'>
-        BoredRATs is a P2E arcade game. Outrun the angry exterminators, defeat your opponents and collect as many tokens as you can, running through an endless maze as fast as possible.
+        BoredRAT is a P2E arcade game. Outrun the angry exterminators, defeat your opponents and collect as many tokens as you can, running through an endless maze as fast as possible.
       </p>
       </div>
     </div>

@@ -60,10 +60,10 @@ function Footer() {
               alt='boredRatsLogo'
               src='/images/ratLogo.png'
             />
-              BoredRATs
+              BoredRAT
             </Link>
           </div>
-          <small class='website-rights'>BoredRATs © 2022</small>
+          <small class='website-rights'>BoredRAT © 2022</small>
           
         </div>
       </section>

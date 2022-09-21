@@ -19,7 +19,7 @@ function Navbar() {
               alt='boredRatsLogo'
               src='/images/ratLogo.png'
             />
-            BoredRATs
+            BoredRAT
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
