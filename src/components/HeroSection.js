@@ -7,7 +7,7 @@ import './GlobalStyles.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/ratTunnel.mov' autoPlay loop muted />
+      <video width="100%" src='/videos/ratTunnel.mov' autoPlay loop muted />
       <div className='row'>
         <div className='column'>
           <img
@@ -46,6 +46,7 @@ function HeroSection() {
             >
               Poocoin
             </Button>
+            <br/>
           </div>
         </div>
       </div>

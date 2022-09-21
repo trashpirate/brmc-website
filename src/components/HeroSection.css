@@ -92,4 +92,15 @@ video {
   .btn {
     width: 90%;
   }
+
+  .hero-img{
+    display: block;
+    height: 200px;
+    width: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
 }

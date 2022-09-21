@@ -133,10 +133,11 @@
 }
 
 .social-icons {
-  display: flex;
+  display: block;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  width: 40%;
+  /* width: 40%; */
 }
 
 .social-logo {
