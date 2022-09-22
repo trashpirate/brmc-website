@@ -20,7 +20,7 @@ function Navbar() {
               alt='boredRatsLogo'
               src='/images/ratLogo.png'
             />
-            BoredRAT
+            BRMC
           </AnchorLink>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -64,7 +64,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Whitepaper
+                Whitepaper - coming soon!
               </Link>
             </li>
           </ul>

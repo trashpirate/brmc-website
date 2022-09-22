@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import PanelItem from './PanelItem';
+import PanelItem from '../helpers/PanelItem';
 
 function About() {
   return (

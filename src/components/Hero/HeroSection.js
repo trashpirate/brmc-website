@@ -1,8 +1,8 @@
 import React from 'react';
-import '../App.css';
-import { Button } from './Button';
+import '../../App.css';
+import { Button } from '../helpers/Button';
 import './HeroSection.css';
-import './GlobalStyles.css';
+import '../helpers/GlobalStyles.css';
 
 function HeroSection() {
   return (
