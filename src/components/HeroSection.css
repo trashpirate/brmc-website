@@ -42,6 +42,7 @@ video {
   color: #fff;
   font-size: 50px;
   margin: 20px 0px;
+  
 }
 
 .hero-container > p {
@@ -63,7 +64,7 @@ video {
   margin-left: 4px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1024px) {
   .hero-container > h1 {
     font-size: 70px;
     margin-top: -150px;
@@ -72,6 +73,8 @@ video {
   .column {
     width: 80%;
   }
+
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -101,6 +104,8 @@ video {
     margin-left: auto;
     margin-right: auto;
   }
+
+  
 
   
 }

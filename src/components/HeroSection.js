@@ -6,7 +6,7 @@ import './GlobalStyles.css';
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
+    <div className='hero-container' id='hero'>
       <video width="100%" src='/videos/ratTunnel.mov' autoPlay loop muted />
       <div className='row'>
         <div className='column'>

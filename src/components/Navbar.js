@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
@@ -12,7 +13,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <AnchorLink href='#hero' className='navbar-logo' onClick={closeMobileMenu}>
             
             <img
               className='logo-img'
@@ -20,59 +21,50 @@ function Navbar() {
               src='/images/ratLogo.png'
             />
             BoredRAT
-          </Link>
+          </AnchorLink>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+              <AnchorLink href='#about' className='nav-links' onClick={closeMobileMenu}>
                 About
-              </Link>
+              </AnchorLink>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/skins'
+              <AnchorLink
+                href='#skins'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Skins
-              </Link>
+              </AnchorLink>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/tokenomics'
+              <AnchorLink
+                href='#tokenomics'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Tokenomics
-              </Link>
+              </AnchorLink>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/roadmap'
+              <AnchorLink
+                href='#roadmap'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Roadmap
-              </Link>
+              </AnchorLink>
             </li>
             <li className='nav-item'>
               <Link
-                to='/'
+                href='/'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Whitepaper
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='https://github.com/ContractChecker/SAFU'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Audits
               </Link>
             </li>
           </ul>

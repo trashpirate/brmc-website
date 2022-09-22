@@ -4,7 +4,7 @@ import PanelItem from './PanelItem';
 
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className='about_container'>
       <h1>What is BoredRAT?</h1>
       <div className='about_section'>

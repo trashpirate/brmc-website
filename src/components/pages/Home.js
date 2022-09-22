@@ -11,6 +11,9 @@ function Home() {
   return (
     <>
       <HeroSection />
+    <section id="about">
+      <About />
+    </section>
       <About />
       <Skins />
       <Roadmap/>

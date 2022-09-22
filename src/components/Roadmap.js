@@ -27,7 +27,7 @@ function Roadmap() {
     },
     {
       s: "CEX listing",
-      t: "Game hub developmen"
+      t: "Game hub development"
     }
   ];
   
@@ -40,7 +40,7 @@ function Roadmap() {
   const [arrowsSize, setarrowsSize] = useState(false);
 
   return (
-    <div className='roadmap'>
+    <div className='roadmap' id='roadmap'>
       <div className='roadmap_title'>
         <h1>ROADMAP</h1>
       </div>

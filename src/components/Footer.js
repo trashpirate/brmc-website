@@ -10,44 +10,20 @@ function Footer() {
       <h1 className='footer-title'>FOLLOW US</h1>
       <div class='social-icons'>
             <Link
-              class='social-icon-link facebook'
+              class='social-icon-link telegram'
               to='/'
-              target='_blank'
-              aria-label='Facebook'
+              target='https://t.me/boredratmazeclub'
+              aria-label='Telegram'
             >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
+              <i class='fab fa-telegram' />
             </Link>
             <Link
               class='social-icon-link twitter'
               to='/'
-              target='_blank'
+              target='https://twitter.com/BoredRatMC'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
             </Link>
           </div>
       <section class='social-media'>
