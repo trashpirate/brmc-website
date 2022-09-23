@@ -4,6 +4,7 @@ import About from '../components/About/About';
 import Skins from '../components/Skins/Skins';
 import HeroSection from '../components/Hero/HeroSection';
 import Footer from '../components/Footer/Footer';
+import Tokenomics from '../components/Tokenomics/Tokenomics';
 import Roadmap from '../components/Roadmap/Roadmap';
 
 
@@ -13,6 +14,7 @@ function Home() {
       <HeroSection />
       <About />
       <Skins />
+      <Tokenomics/>
       <Roadmap/>
       <Footer />
     </>
