@@ -18,7 +18,7 @@ function HeroSection() {
         </div>
         <div className='column'>
           <div className='hero-btns'>
-            <h1>Welcome To BoredRAT</h1>
+            <h1>Welcome to the <br/> Bored Rat Maze Club</h1>
             <Button
               to='https://bscscan.com/'
               className='btns'
@@ -27,7 +27,7 @@ function HeroSection() {
             >
               SMART CONTRACT
             </Button>
-            <br></br>
+            <div className='space'/>
             <Button
              to='https://bscscan.com/'
               className='btns'
@@ -44,7 +44,7 @@ function HeroSection() {
               buttonSize='btn--large'
               onClick={console.log('hey')}
             >
-              Poocoin
+              Chart
             </Button>
             <br/>
           </div>
