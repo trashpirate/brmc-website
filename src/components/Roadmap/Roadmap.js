@@ -17,11 +17,11 @@ function Roadmap() {
     {
       s: "Public sale of $CHEESE token",
       t: "CoinMarketCap Listing",
-      u: "NFTs first reveal",
+      u: "RatMaze V1",
     },
     {
-      t: "Beta testing",
-      v: "Character Upgrades",
+      t: "P2E Feature",
+      v: "NFT Auction",
       w: "Leaderboards"
 
     },
