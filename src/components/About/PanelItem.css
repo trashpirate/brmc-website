@@ -1,57 +1,57 @@
 .panels__item {
-    display: flex;
-    flex: 1;
-    margin: 0 1rem;
-    border-radius: 10px;
-    /* transform:translate(20px, 0px); */
-    padding: 0;
-  }
-  
-  .panels__item__card {
-    display: flex;
-    flex-flow: column;
-    width: 90%;
-    border-radius: 5px;
-    overflow: hidden;
-    border: solid;
-    border-width: 1px;
-    border-color: aqua;
-    /* height: 110px; */
-    transition: 0.3s;
-    padding: 20px 30px 30px 50px;
-    margin: 20px 0px;
-    flex-grow: 2;
-  }
-  
-  .panels__item__card> h5{
-    font-size: 18px;
-    color: white;
-  }
-  
-  .panels__item__card:hover{
-    background-color: rgb(22, 194, 224);
-  }
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+  /* transform:translate(20px, 0px); */
+  padding: 0;
+}
 
-  .panels__item__text {
-    color: white;
-    font-size: 18px;
-    line-height: 24px;
-  }
-  
-  .panels_number_field {
-    position: relative;
-    height: 50px;
-    transform:translate(50%, -10%);
-    align-self: center;
-  }
-  
-  .panels_number_field> h1 {
-    font-size: 18px;
-    color: rgb(8, 115, 148);
-    position: relative;
-    padding: 20px;
-    border-radius: 3px;
-    background-color: aqua;
-    color: rgb(8, 115, 148);
-    line-height: normal;
-  }
+.panels__item__card {
+  display: flex;
+  flex-flow: column;
+  width: 90%;
+  border-radius: 5px;
+  overflow: hidden;
+  border: solid;
+  border-width: 1px;
+  border-color: aqua;
+  /* height: 110px; */
+  transition: 0.3s;
+  padding: 20px 30px 30px 50px;
+  margin: 20px 0px;
+  flex-grow: 2;
+}
+
+.panels__item__card > h5 {
+  font-size: 18px;
+  color: white;
+}
+
+.panels__item__card:hover {
+  background-color: rgb(22, 194, 224);
+}
+
+.panels__item__text {
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.panels_number_field {
+  position: relative;
+  height: 50px;
+  transform: translate(50%, -10%);
+  align-self: center;
+}
+
+.panels_number_field > h1 {
+  font-size: 18px;
+  color: rgb(8, 115, 148);
+  position: relative;
+  padding: 20px;
+  border-radius: 3px;
+  background-color: aqua;
+  color: rgb(8, 115, 148);
+  line-height: normal;
+}

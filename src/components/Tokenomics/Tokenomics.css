@@ -13,7 +13,9 @@ h1 {
   font-size: 25px;
   line-height: 3rem;
   color: aqua;
-  padding: 20px 0px 40px 0px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  /* padding: 20px 0px 40px 0px; */
 }
 
 .row {
@@ -58,6 +60,7 @@ h1 {
 @media only screen and (max-width: 1024px) {
   .row {
     flex-direction: column;
+    padding-bottom: 10vh;
   }
   .col {
     width: 70%;

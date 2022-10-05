@@ -6,9 +6,9 @@ function About() {
   return (
     <section className="about" id="about">
       <div className="about_container">
-        <h1>What is BoredRAT?</h1>
+        <h1>What is BoredRatMaze?</h1>
         <p className="about_text">
-          BoredRAT is a P2E arcade game. Outrun the angry cats, defeat your
+          BoredRatMaze is a P2E arcade game. Outrun the angry cats, defeat your
           opponents and collect as many tokens as you can, running through an
           endless maze as fast as possible.
         </p>

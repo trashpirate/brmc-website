@@ -17,11 +17,10 @@ h1 {
   text-align: center;
 }
 
-.about_container> h1 {
+.about_container > h1 {
   color: aqua;
   padding-bottom: 20px;
 }
-
 
 .panels__container {
   display: flex;
@@ -36,15 +35,11 @@ h1 {
   margin-bottom: 24px;
 }
 
-
-
-
 /* @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
   }
 } */
-
 
 @media only screen and (max-width: 1024px) {
   .panels__item {
@@ -57,12 +52,16 @@ h1 {
     margin-bottom: 2rem;
   }
 
-  .panels__items{
+  .panels__items {
     margin: 0 auto;
   }
 
-  .about_container{
+  .about_container {
     width: 100%;
     margin: 0 auto;
+  }
+
+  .about_container > h1 {
+    font-size: 18px;
   }
 }

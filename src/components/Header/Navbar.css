@@ -34,7 +34,7 @@
   font-size: 1rem;
   display: flex;
   align-items: center;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: #1df5e6;
 }
 
@@ -83,10 +83,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .NavbarItems {
-    position: relative;
-  }
-
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -121,20 +117,22 @@
   }
 
   .navbar-logo {
-    justify-self: center!important;
-    /* position: absolute;
-    top: 30;
-    left: 10; */
-    
-    transform: translate(0vw, 0.5vw);
+    position: relative;
+    top: 0.5vh;
+    left: 2vw;
+  }
+
+  .navbar-container {
+    width: 80%;
+    position: relative;
+    /* background-color: #1df5e6; */
+    justify-content: space-between;
   }
 
   .menu-icon {
     display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-200%, 60%);
+    position: relative;
+    right: 2vw;
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -164,5 +162,11 @@
     color: #242424;
     transition: 250ms;
   }
+}
 
+@media screen and (max-width: 768px) {
+  .navbar-logo {
+    /* font-size: 0.7rem; */
+    transform: translate(-50px, 0px);
+  }
 }
