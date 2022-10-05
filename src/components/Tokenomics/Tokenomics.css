@@ -1,8 +1,11 @@
 .tokenomics_section {
   padding-top: 4rem;
   padding-bottom: 0rem;
-  background: linear-gradient(4deg, rgba(0,0,0,1) 25%, rgba(1,114,136,1) 100%);
-  
+  background: linear-gradient(
+    4deg,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(1, 114, 136, 1) 100%
+  );
 }
 
 h1 {
@@ -13,16 +16,51 @@ h1 {
   padding: 20px 0px 40px 0px;
 }
 
-.tokenomics_container {
+.row {
+  margin: 0 auto;
+  width: 80%;
   display: flex;
   justify-content: center;
 }
 
-
-@media only screen and (max-width: 1024px) {
-
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-@media only screen and (max-width: 768px) {
-  
+.col {
+  height: auto;
+  width: 25%;
+  border: solid;
+  border-radius: 10px;
+  border-color: aqua;
+  border-width: 2px;
+  margin: 0 20px;
+  padding: 0px 10px 25px 10px;
+}
+
+.col:hover {
+  background: rgb(1, 102, 102);
+}
+
+.col > h1 {
+  color: acqua;
+  font-size: medium;
+}
+
+.col > h2 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 0;
+}
+@media only screen and (max-width: 1024px) {
+  .row {
+    flex-direction: column;
+  }
+  .col {
+    width: 70%;
+    margin: 20px auto;
+  }
 }

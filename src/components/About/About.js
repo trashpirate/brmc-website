@@ -8,9 +8,9 @@ function About() {
       <div className="about_container">
         <h1>What is BoredRAT?</h1>
         <p className="about_text">
-          BoredRAT is a P2E arcade game. Outrun the angry exterminators, defeat
-          your opponents and collect as many tokens as you can, running through
-          an endless maze as fast as possible.
+          BoredRAT is a P2E arcade game. Outrun the angry cats, defeat your
+          opponents and collect as many tokens as you can, running through an
+          endless maze as fast as possible.
         </p>
       </div>
       <div className="panels__container">
@@ -28,11 +28,11 @@ function About() {
           </ul>
           <ul className="panels__items">
             <PanelItem
-              text="Equip NFTs to increase your chances at wining"
+              text="Equip NFTs to increase your chances at winning"
               number="4"
             />
-            <PanelItem text="Open lootboxes with unique NFTs" number="5" />
-            <PanelItem text="Trade NFTs on marketplace" number="6" />
+            <PanelItem text="Collect unique NFTs" number="5" />
+            <PanelItem text="Trade NFTs on a NFT marketplace" number="6" />
           </ul>
         </div>
       </div>
