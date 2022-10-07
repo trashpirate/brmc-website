@@ -9,8 +9,8 @@ function About() {
         <h1>What is BoredRatMaze?</h1>
         <p className="about_text">
           BoredRatMaze is a P2E arcade game. Outrun the angry cats, defeat your
-          opponents and collect as many tokens as you can, running through an
-          endless maze as fast as possible.
+          opponents and collect as many tokens as you can, running through a
+          unique maze as fast as possible.
         </p>
       </div>
       <div className="panels__container">
@@ -21,14 +21,11 @@ function About() {
               number="1"
             />
             <PanelItem text="Play with your friends in PvP mode" number="2" />
-            <PanelItem
-              text="Spend your tokens on NFTs, stack or swap on DEX"
-              number="3"
-            />
+            <PanelItem text="Spend your tokens on cool NFTs" number="3" />
           </ul>
           <ul className="panels__items">
             <PanelItem
-              text="Equip NFTs to increase your chances at winning"
+              text="Use unique NFTs to increase your chances of winning"
               number="4"
             />
             <PanelItem text="Collect unique NFTs" number="5" />

@@ -20,8 +20,9 @@ function Roadmap() {
     },
     {
       s: "MyCryptoCheckout Listing",
-      t: "RatMaze V1",
+      t: "BoredRatMaze V1",
       u: "Airdrop Events",
+      v: "Farming and Staking on DEX",
     },
     {
       s: "P2E Feature",
