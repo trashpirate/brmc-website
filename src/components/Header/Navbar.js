@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -11,59 +11,62 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <AnchorLink href='#hero' className='navbar-logo' onClick={closeMobileMenu}>
-            
+      <nav className="navbar">
+        <div className="navbar-container">
+          <AnchorLink
+            href="#hero"
+            className="navbar-logo"
+            onClick={closeMobileMenu}
+          >
             <img
-              className='logo-img'
-              alt='boredRatsLogo'
-              src='/images/ratLogo.png'
+              className="logo-img"
+              alt="boredRatsLogo"
+              src="/images/ratLogo.png"
             />
-            BoredRatMC
+            <h1 className="navbar-title">BoredRatMC</h1>
           </AnchorLink>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          <div className="menu-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <AnchorLink href='#about' className='nav-links' onClick={closeMobileMenu}>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <AnchorLink
+                href="#about"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 About
               </AnchorLink>
             </li>
-            <li className='nav-item'>
+            <li className="nav-item">
               <AnchorLink
-                href='#skins'
-                className='nav-links'
+                href="#skins"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Skins
               </AnchorLink>
             </li>
-            <li className='nav-item'>
+            <li className="nav-item">
               <AnchorLink
-                href='#tokenomics'
-                className='nav-links'
+                href="#tokenomics"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Tokenomics
               </AnchorLink>
             </li>
-            <li className='nav-item'>
+            <li className="nav-item">
               <AnchorLink
-                href='#roadmap'
-                className='nav-links'
+                href="#roadmap"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Roadmap
               </AnchorLink>
             </li>
-            <li className='nav-item'>
-              <Link
-                href='/'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+            <li className="nav-item">
+              <Link href="/" className="nav-links" onClick={closeMobileMenu}>
                 Whitepaper - coming soon!
               </Link>
             </li>

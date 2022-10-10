@@ -12,6 +12,30 @@
   padding: 50px 0px;
 }
 
+.footer-logo {
+  color: #fff;
+  width: 260px;
+  margin-left: 0px;
+  font-size: 1rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.footer-logo-title {
+  font-size: 1rem;
+  font-family: "Press Start 2P", cursive;
+  color: #1df5e6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: auto;
+  height: 80px;
+}
+
 .partner {
   display: block;
   justify-content: center;
@@ -20,33 +44,18 @@
 
 .partner_logos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   text-align: center;
-
 }
-
-.footer-logo {
-  color: #fff;
-  justify-self: start;
-  margin-left: 0px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  font-family: 'Press Start 2P', cursive;
-  color: #1df5e6;
-}
-
 
 .partner_name {
   color: #fff;
   text-align: center;
   padding: 10px;
 }
-
 
 /* Social Icons */
 .social-icon-link {
@@ -94,8 +103,6 @@
   margin-bottom: 16px;
 }
 
-
-
 @media screen and (max-width: 768px) {
   .footer-links {
     padding-top: 2rem;
@@ -118,5 +125,12 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .footer-logo-title {
+    display: none;
+  }
 }

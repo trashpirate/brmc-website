@@ -27,9 +27,8 @@ h1 {
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  justify-content: center;
 }
 
 .panels__items {
@@ -49,10 +48,6 @@ h1 {
 }
 
 @media only screen and (max-width: 768px) {
-  .about {
-    padding: 0;
-  }
-
   .panels__item {
     margin-bottom: 2rem;
   }
@@ -63,20 +58,6 @@ h1 {
 
   .about_container {
     width: 100%;
-    /* margin: 0 auto; */
-    text-align: center;
-  }
-
-  .about_container > h1 {
-    font-size: 18px;
-    width: 100%;
-  }
-
-  .panels__container {
-    width: 100%;
-  }
-
-  .panels__items {
     margin: 0 auto;
   }
 }

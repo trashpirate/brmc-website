@@ -115,3 +115,35 @@
     margin: 0px 0px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .row {
+    padding-top: 20vh;
+  }
+  .hero-img {
+    object-fit: scale-down;
+    max-height: 150px;
+  }
+
+  .hero-container .hero-btns {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero-btns .btn {
+    /* margin: 6px; */
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .hero-container {
+    height: 100vh;
+    padding-bottom: 100px;
+  }
+
+  .hero-container .hero-btns > h1 {
+    font-size: 25px;
+    line-height: 2rem;
+    margin: 0px 0px;
+  }
+}
