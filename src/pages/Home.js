@@ -7,6 +7,7 @@ import Footer from "../components/Footer/Footer";
 import Tokenomics from "../components/Tokenomics/Tokenomics";
 import Roadmap from "../components/Roadmap/Roadmap";
 import Airdrop from "../components/Airdrop/Airdrop";
+import Audit from "../components/Audit/Audit";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Tokenomics />
       <Roadmap />
       <Airdrop />
+      <Audit />
       <Footer />
     </>
   );

@@ -1,0 +1,111 @@
+.audit {
+  padding: 2rem;
+  background: rgba(1, 114, 136, 1);
+  /* display: flex; */
+  text-align: center;
+}
+
+.audit_container {
+  padding: 2rem;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.audit_container > h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 30px;
+  line-height: 3rem;
+}
+
+.audit_container > h2 {
+  font-size: 20px;
+}
+
+.audit_text {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.audit-buttons {
+  width: 50%;
+  margin: 0 auto;
+  /* background-color: antiquewhite; */
+}
+
+.audit-button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  font-weight: 700;
+  color: initial;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .audit {
+    padding: 0;
+  }
+
+  .audit_container {
+    width: 80%;
+    /* margin: 0 auto; */
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .audit {
+    padding: 0;
+  }
+
+  .audit_container {
+    width: 100%;
+    /* margin: 0 auto; */
+    text-align: center;
+  }
+
+  .audit_container > h1 {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .audit_container > p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  span.emoji {
+    position: relative;
+    font-size: 25px;
+    vertical-align: middle;
+    line-height: 2;
+    top: -5px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .audit_container > h1 {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .audit_container > p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  span.emoji {
+    position: relative;
+    font-size: 20px;
+    vertical-align: middle;
+    line-height: 2;
+    top: -5px;
+  }
+}
