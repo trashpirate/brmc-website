@@ -29,8 +29,8 @@ function Roadmap() {
     },
   ];
 
-  const [labelWidth, setlabelWidth] = useState(250);
-  const [amountMove, setamountMove] = useState(225);
+  const [labelWidth, setlabelWidth] = useState(220);
+  const [amountMove, setamountMove] = useState(110);
   const [lineColor, setlineColor] = useState("#61dafb");
   const [darkMode, setdarkMode] = useState(true);
   const [eventTextAlignCenter, seteventTextAlignCenter] = useState(true);
