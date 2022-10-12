@@ -18,14 +18,14 @@ function Footer() {
           <p className="partner_name">PinkSale</p>
         </div>
         <div className="partner">
-          <a href="https://www.contractchecker.app/">
+          <a href="https://www.interfi.network/">
             <img
               className="partner_logo_img"
-              alt="contractchecker"
-              src="/images/contractchecker.png"
+              alt="InterFi Network"
+              src="/images/interfi.png"
             />
           </a>
-          <p className="partner_name">ContractChecker</p>
+          <p className="partner_name">InterFi Network</p>
         </div>
         <div className="partner">
           <a href="https://t.me/Caesars_Calls">
