@@ -17,7 +17,7 @@ function Home() {
       <Skins />
       <Tokenomics />
       <Roadmap />
-      {/* <Airdrop /> */}
+      <Airdrop />
       {/* <Audit /> */}
       {/* <Footer /> */}
     </>
