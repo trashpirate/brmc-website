@@ -5,7 +5,10 @@ import { Chart } from "react-google-charts";
 function Tokenomics() {
   return (
     <div className="tokenomics_section" id="tokenomics">
-      <h1>Tokenomics - 0% Tax!</h1>
+      <div className="tokenomics_title">
+        <h1>Tokenomics</h1>
+        <h2>0% Tax</h2>
+      </div>
       <div className="row">
         <div className="col">
           <h1>Presale</h1>
