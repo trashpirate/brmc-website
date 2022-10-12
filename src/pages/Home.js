@@ -18,8 +18,8 @@ function Home() {
       <Tokenomics />
       <Roadmap />
       <Airdrop />
-      {/* <Audit /> */}
-      {/* <Footer /> */}
+      <Audit />
+      <Footer />
     </>
   );
 }

@@ -8,9 +8,9 @@ function About() {
       <div className="about_container">
         <h1>What is Bored Rat Maze Club?</h1>
         <p className="about_text">
-          BoredRatMaze is a P2E arcade game. Outrun the angry cats, defeat your
-          opponents and collect as many tokens as you can, running through a
-          unique maze as fast as possible.
+          Bored Rat Maze Club is a P2E arcade game. Outrun the angry cats,
+          defeat your opponents and collect as many tokens as you can, running
+          through a unique maze as fast as possible.
         </p>
       </div>
       <div className="panels__container">

@@ -22,7 +22,7 @@ function HeroSection() {
               Welcome to the <br /> Bored Rat Maze Club
             </h1>
             <Button
-              to="https://bscscan.com/"
+              to="https://bscscan.com/address/0x9Af8c94a25Cc120F24703569F64f7c2c1dA47568"
               className="btns"
               buttonStyle="btn--outline"
               buttonSize="btn--large"
@@ -31,7 +31,7 @@ function HeroSection() {
             </Button>
             <div className="space" />
             <Button
-              to="https://bscscan.com/"
+              to="https://pancakeswap.finance/swap?inputCurrency=0x9Af8c94a25Cc120F24703569F64f7c2c1dA47568"
               className="btns"
               buttonStyle="btn--primary"
               buttonSize="btn--large"
@@ -40,7 +40,7 @@ function HeroSection() {
               PancakeSwap
             </Button>
             <Button
-              to="https://bscscan.com/"
+              to="https://poocoin.app/tokens/0x9af8c94a25cc120f24703569f64f7c2c1da47568"
               className="btns"
               buttonStyle="btn--primary"
               buttonSize="btn--large"

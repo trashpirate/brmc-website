@@ -1,5 +1,5 @@
 .audit {
-  padding: 2rem;
+  padding: 6rem;
   background: rgba(1, 114, 136, 1);
   /* display: flex; */
   text-align: center;
@@ -10,6 +10,38 @@
   width: 60%;
   margin: 0 auto;
   text-align: center;
+}
+
+span.emoji {
+  display: inline-block;
+  position: relative;
+  font-size: 50px;
+  vertical-align: middle;
+  line-height: 2;
+  margin-bottom: 1rem;
+  animation-name: stretch;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(1);
+    /* background-color: green; */
+    border-radius: 100%;
+  }
+
+  50% {
+    /* background-color: orange; */
+  }
+
+  100% {
+    transform: scale(1.25);
+    /* background-color: red; */
+  }
 }
 
 .audit_container > h1 {
@@ -31,7 +63,36 @@
 .audit-buttons {
   width: 50%;
   margin: 0 auto;
+  font-size: 22px;
   /* background-color: antiquewhite; */
+}
+
+.safu-button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  font-weight: 700;
+  color: initial;
+  background-color: rgb(204, 24, 228);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.kyc-button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  font-weight: 700;
+  color: initial;
+  background-color: rgb(9, 207, 9);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .audit-button {
@@ -43,14 +104,15 @@
   font-weight: 700;
   color: initial;
   background-color: aqua;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 10px;
   margin: 10px;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1024px) {
   .audit {
-    padding: 0;
+    padding: 6rem 0rem;
   }
 
   .audit_container {
@@ -62,7 +124,7 @@
 
 @media only screen and (max-width: 768px) {
   .audit {
-    padding: 0;
+    padding: 6rem 0rem;
   }
 
   .audit_container {
@@ -79,14 +141,6 @@
   .audit_container > p {
     font-size: 18px;
     width: 100%;
-  }
-
-  span.emoji {
-    position: relative;
-    font-size: 25px;
-    vertical-align: middle;
-    line-height: 2;
-    top: -5px;
   }
 }
 
@@ -99,13 +153,5 @@
   .audit_container > p {
     font-size: 16px;
     width: 100%;
-  }
-
-  span.emoji {
-    position: relative;
-    font-size: 20px;
-    vertical-align: middle;
-    line-height: 2;
-    top: -5px;
   }
 }

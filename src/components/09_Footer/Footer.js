@@ -74,7 +74,7 @@ function Footer() {
                 alt="boredRatsLogo"
                 src="/images/ratLogo.png"
               />
-              <h1 className="footer-logo-title">BoredRatMC</h1>
+              <h1 className="footer-logo-title">BRMC</h1>
             </AnchorLink>
           </div>
           <small class="website-rights">BoredRatMazeClub © 2022</small>

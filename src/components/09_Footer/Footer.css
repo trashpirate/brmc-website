@@ -65,8 +65,12 @@
 }
 
 .social-media {
-  max-width: 1000px;
+  background: rgb(28, 27, 27);
+  /* max-width: 1000px; */
   width: 100%;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding: 20px 0px;
 }
 
 .social-media-wrap {
@@ -75,7 +79,26 @@
   align-items: center;
   width: 90%;
   max-width: 1000px;
-  margin: 40px auto 0 auto;
+  margin: auto auto;
+  vertical-align: middle;
+}
+
+.footer-logo {
+  height: 80px;
+  width: auto;
+  display: flex;
+  vertical-align: middle;
+  cursor: pointer;
+  text-decoration: none;
+  /* background-color: #fff; */
+}
+
+.footer-logo-title {
+  font-size: 22px;
+  font-family: "Press Start 2P", cursive;
+  color: #1df5e6;
+  margin: auto 5px;
+  /* background-color: #bbb; */
 }
 
 .social-icons {
