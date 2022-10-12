@@ -12,7 +12,7 @@ import Footer from "../components/09_Footer/Footer";
 function Home() {
   return (
     <>
-      {/* <HeroSection /> */}
+      <HeroSection />
       {/* <About /> */}
       {/* <Skins /> */}
       {/* <Tokenomics /> */}

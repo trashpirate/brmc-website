@@ -6,7 +6,7 @@ import "../__helpers/GlobalStyles.css";
 
 function HeroSection() {
   return (
-    <div className="hero-container" id="hero">
+    <section className="hero-container" id="hero">
       <video width="100%" src="/videos/ratTunnel.mov" autoPlay loop muted />
       <div className="row">
         <div className="column">
@@ -52,7 +52,7 @@ function HeroSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
