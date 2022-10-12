@@ -10,9 +10,6 @@
   background: rgb(28, 27, 27);
   height: 80px;
   top: 0;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
   position: sticky;
   font-size: 20px;
   z-index: 999;

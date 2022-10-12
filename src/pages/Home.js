@@ -13,7 +13,7 @@ function Home() {
   return (
     <>
       <HeroSection />
-      {/* <About /> */}
+      <About />
       {/* <Skins /> */}
       {/* <Tokenomics /> */}
       {/* <Roadmap /> */}

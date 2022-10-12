@@ -3,7 +3,7 @@
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
-  /* transform:translate(20px, 0px); */
+  transform: translate(-10px, 0px);
   padding: 0;
 }
 
@@ -23,8 +23,8 @@
   flex-grow: 2;
 }
 
-.panels__item__card > h5 {
-  font-size: 18px;
+.panels__item__card > p {
+  /* font-size: 18px; */
   color: white;
 }
 
@@ -45,7 +45,8 @@
   align-self: center;
 }
 
-.panels_number_field > h1 {
+.panels_number_field > p {
+  font-family: "Press Start 2P", cursive;
   font-size: 18px;
   color: rgb(8, 115, 148);
   position: relative;
@@ -54,4 +55,23 @@
   background-color: aqua;
   color: rgb(8, 115, 148);
   line-height: normal;
+}
+
+@media only screen and (max-width: 768px) {
+  .panels__item__card > p {
+    font-size: 16px;
+  }
+
+  .panels_number_field {
+    transform: translate(50%, 0%);
+  }
+
+  .panels_number_field > p {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .panels__item__card {
+    padding: 10px 15px 15px 30px;
+  }
 }
