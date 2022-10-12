@@ -35,6 +35,11 @@
   /* background-color: #fff; */
 }
 
+.navbar-logo-img {
+  position: relative;
+  top: 5px;
+}
+
 .navbar-logo-title {
   font-size: 22px;
   font-family: "Press Start 2P", cursive;
