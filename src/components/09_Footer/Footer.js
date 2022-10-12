@@ -1,7 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { Button } from "../helpers/Button";
-import { Link } from "react-router-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Footer() {

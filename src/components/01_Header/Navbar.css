@@ -1,4 +1,5 @@
 :root {
+  --small: 320px;
   --mobile: 480px;
   --tablet: 768px;
   --laptop: 1024px;
@@ -9,39 +10,36 @@
   background: rgb(28, 27, 27);
   height: 80px;
   top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
   position: sticky;
-  font-size: 1.2rem;
+  font-size: 20px;
   z-index: 999;
 }
 
 .navbar-container {
   height: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   /* background-color: #999; */
 }
 
 .navbar-logo {
   height: 80px;
-  width: 250px;
-  margin: auto 10px;
-  color: #fff;
+  width: auto;
   display: flex;
-  justify-content: space-between;
+  vertical-align: middle;
   cursor: pointer;
   text-decoration: none;
   /* background-color: #fff; */
 }
 
-.navbar-title {
-  position: relative;
-  font-size: 1rem;
+.navbar-logo-title {
+  font-size: 22px;
   font-family: "Press Start 2P", cursive;
   color: #1df5e6;
+  margin: auto 5px;
   /* background-color: #bbb; */
 }
 
@@ -103,14 +101,16 @@
   .nav-menu.active {
     background: #242222;
     left: 0;
-    opacity: 1;
+    opacity: 0.8;
     transition: all 0.5s ease;
     z-index: 1;
+    padding-bottom: 25px;
+    max-width: 200px;
   }
 
   .nav-links {
-    text-align: center;
-    padding: 2rem;
+    text-align: left;
+    padding: 30px;
     width: 100%;
     display: table;
   }
@@ -128,16 +128,15 @@
   }
 
   .navbar-container {
-    width: 80%;
     position: relative;
-    /* background-color: #1df5e6; */
     justify-content: space-between;
   }
 
   .menu-icon {
-    display: block;
+    display: flex;
     position: relative;
-    right: 2vw;
+    right: 20px;
+    top: 25px;
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -145,42 +144,5 @@
   .fa-times {
     color: #fff;
     font-size: 2rem;
-  }
-
-  .nav-links-mobile {
-    display: block;
-    text-align: center;
-    margin: 2rem auto;
-    border-radius: 4px;
-    width: 80%;
-    text-decoration: none;
-    font-size: 1.5rem;
-    background-color: transparent;
-    color: #fff;
-    padding: 14px 20px;
-    border: 1px solid #fff;
-    transition: all 0.3s ease-out;
-  }
-
-  .nav-links-mobile:hover {
-    background: #fff;
-    color: #242424;
-    transition: 250ms;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .navbar-logo {
-    /* font-size: 0.7rem; */
-    /* transform: translate(-50px, 0px); */
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .navbar-title {
-    display: none;
-    position: relative;
-    top: 0.5vh;
-    left: 0vw;
   }
 }

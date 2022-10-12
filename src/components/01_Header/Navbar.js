@@ -19,11 +19,11 @@ function Navbar() {
             onClick={closeMobileMenu}
           >
             <img
-              className="logo-img"
+              className="navbar-logo-img"
               alt="boredRatsLogo"
               src="/images/ratLogo.png"
             />
-            <h1 className="navbar-title">BoredRatMC</h1>
+            <span className="navbar-logo-title">BRMC</span>
           </AnchorLink>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />

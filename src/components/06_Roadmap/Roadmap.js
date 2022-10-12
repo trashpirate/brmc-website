@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./Roadmap.css";
-// import {Timeline} from 'react-beautiful-horizontal-timeline';
 import { Timeline } from "./Timeline";
-// import '../../node_modules/react-beautiful-horizontal-timeline/card.css';
 
 function Roadmap() {
   const myList = [
