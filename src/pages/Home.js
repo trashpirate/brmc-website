@@ -14,7 +14,7 @@ function Home() {
     <>
       <HeroSection />
       <About />
-      {/* <Skins /> */}
+      <Skins />
       {/* <Tokenomics /> */}
       {/* <Roadmap /> */}
       {/* <Airdrop /> */}

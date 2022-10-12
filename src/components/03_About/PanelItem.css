@@ -9,7 +9,7 @@
 
 .panels__item__card {
   display: flex;
-  flex-flow: column;
+  align-items: center;
   width: 90%;
   border-radius: 5px;
   overflow: hidden;
@@ -18,14 +18,11 @@
   border-color: aqua;
   /* height: 110px; */
   transition: 0.3s;
-  padding: 20px 30px 30px 50px;
+  padding-left: 50px;
+  padding-right: 20px;
   margin: 20px 0px;
   flex-grow: 2;
-}
-
-.panels__item__card > p {
-  /* font-size: 18px; */
-  color: white;
+  min-height: 100px;
 }
 
 .panels__item__card:hover {
@@ -36,12 +33,14 @@
   color: white;
   font-size: 18px;
   line-height: 24px;
+  vertical-align: middle;
+  /* background-color: rgb(84, 85, 85); */
 }
 
 .panels_number_field {
   position: relative;
   height: 50px;
-  transform: translate(50%, -10%);
+  transform: translate(50%, -5%);
   align-self: center;
 }
 
@@ -72,6 +71,7 @@
   }
 
   .panels__item__card {
-    padding: 10px 15px 15px 30px;
+    padding-left: 40px;
+    padding-right: 20px;
   }
 }
