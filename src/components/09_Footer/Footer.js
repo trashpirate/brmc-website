@@ -18,6 +18,26 @@ function Footer() {
           <p className="partner_name">PinkSale</p>
         </div>
         <div className="partner">
+          <a href="https://pancakeswap.finance/swap?inputCurrency=0x9Af8c94a25Cc120F24703569F64f7c2c1dA47568">
+            <img
+              className="partner_logo_img"
+              alt="PankcakeSwap"
+              src="/images/pancakeswap.png"
+            />
+          </a>
+          <p className="partner_name">PancakeSwap</p>
+        </div>
+        <div className="partner">
+          <a href="https://bscscan.com/address/0x9Af8c94a25Cc120F24703569F64f7c2c1dA47568">
+            <img
+              className="partner_logo_img"
+              alt="binance smart chain"
+              src="/images/bsc.png"
+            />
+          </a>
+          <p className="partner_name">BSC</p>
+        </div>
+        <div className="partner">
           <a href="https://www.interfi.network/">
             <img
               className="partner_logo_img"
@@ -31,7 +51,7 @@ function Footer() {
           <a href="https://t.me/Caesars_Calls">
             <img
               className="partner_logo_img"
-              alt="contractchecker"
+              alt="CaesarCalls"
               src="/images/caesarcalls.png"
             />
           </a>
@@ -41,7 +61,7 @@ function Footer() {
           <a href="https://www.youtube.com/channel/UCryq419XAdNubEZyjwHWgCQ">
             <img
               className="partner_logo_img"
-              alt="contractchecker"
+              alt="Nadina Oates Crypto and Blockchain"
               src="/images/no_crypto.png"
             />
           </a>
