@@ -3,6 +3,7 @@ import "../../App.css";
 import { Button } from "../__helpers/Button";
 import "./HeroSection.css";
 import "../__helpers/GlobalStyles.css";
+import { PopUp } from "../__helpers/PopUp";
 
 function HeroSection() {
   return (
@@ -15,6 +16,14 @@ function HeroSection() {
             alt="boredRatsLogo"
             src="/images/boredRat_250px.png"
           />
+          <br />
+          <a
+            type="button"
+            onclick="https://www.pinksale.finance/launchpad/0xdE15F292DE42647DEDbcC121Ad6831C13a337F36?chain=BSC"
+            className="presale-btn"
+          >
+            Presale
+          </a>
         </div>
         <div className="column">
           <div className="hero-btns">

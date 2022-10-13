@@ -5,7 +5,7 @@ function Audit() {
   return (
     <section className="audit" id="audit">
       <div className="audit_container">
-        <span className="emoji">&#128274;</span>
+        <span className="lock-emoji">&#128274;</span>
         <h1 id="title">SAFU, KYC, and AUDIT</h1>
         <h2 id="subtitle">Security & Safety Certification</h2>
         <p className="audit_text">

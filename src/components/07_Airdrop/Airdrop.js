@@ -6,11 +6,11 @@ function Airdrop() {
     <section className="airdrop" id="airdrop">
       <div className="airdrop_container">
         <h1 id="title">
-          <span className="emoji" role="img" aria-label="emoji">
+          <span className="celeb-emoji" role="img" aria-label="celeb-emoji">
             &#127881;
           </span>{" "}
           NFT AIRDROP{" "}
-          <span className="emoji" role="img" aria-label="emoji">
+          <span className="celeb-emoji" role="img" aria-label="celeb-emoji">
             &#127881;
           </span>
         </h1>

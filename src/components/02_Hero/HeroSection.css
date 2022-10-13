@@ -29,6 +29,10 @@
   text-align: center;
 }
 
+.popup {
+  background-color: antiquewhite;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -38,6 +42,46 @@
 .hero-img {
   object-fit: scale-down;
   max-width: 100%;
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.column .presale-btn {
+  padding: 8px 40px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px !important;
+
+  background-color: aqua;
+  color: #242424;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 900;
+
+  animation: mymove 2s infinite alternate;
+}
+
+@keyframes mymove {
+  from {
+    background-color: aqua;
+    color: black;
+    border-color: black;
+  }
+  to {
+    background-color: rgb(1, 70, 110);
+    color: white;
+    border-color: white;
+  }
 }
 
 .hero-container .hero-btns > h1 {
@@ -49,6 +93,7 @@
 
 .hero-btns .btn {
   margin: 6px;
+  border-radius: 10px;
   /* width: 60%; */
 }
 
