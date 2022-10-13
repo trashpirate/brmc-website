@@ -2,14 +2,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  margin: 0px;
 }
 
 .home {
-  display: flex;
-  height: 90vh;
+  height: 100vh;
+  /* display: flex;
+  height: 100vh;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 3rem; */
+  /* background-color: black; */
 }
-

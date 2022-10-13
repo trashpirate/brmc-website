@@ -3,8 +3,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1200px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 100vh rgba(0, 0, 0, 0.2);
   line-height: 4rem;
+  margin-top: -80px;
+  padding-top: 80px;
 }
 
 .hero-row {
@@ -22,9 +24,8 @@
 }
 
 .hero-container > video {
-  display: block;
+  /* display: block; */
   object-fit: cover;
-  width: 100%;
   height: 100%;
   position: fixed;
   z-index: -1;
