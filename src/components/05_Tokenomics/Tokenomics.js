@@ -9,20 +9,20 @@ function Tokenomics() {
         <h1>Tokenomics</h1>
         <h2>0% Tax</h2>
       </div>
-      <div className="row">
-        <div className="col">
+      <div className="tokenomics-row">
+        <div className="tokenomics-col">
           <h1>Presale</h1>
           <h2 className="percentage">95%</h2>
         </div>
-        <div className="col">
+        <div className="tokenomics-col">
           <h1>Team</h1>
           <h2 className="percentage">2%</h2>
         </div>
-        <div className="col">
+        <div className="tokenomics-col">
           <h1>Marketing</h1>
           <h2 className="percentage">2%</h2>
         </div>
-        <div className="col">
+        <div className="tokenomics-col">
           <h1>Game (P2E)</h1>
           <h2 className="percentage">1%</h2>
         </div>

@@ -81,9 +81,9 @@
   color: #fff;
 }
 
-.nav-links-mobile {
+/* .nav-links-mobile {
   display: none;
-}
+} */
 
 .menu-icon {
   display: none;
@@ -96,7 +96,8 @@
     width: auto;
     position: absolute;
     top: 80px;
-    opacity: 0;
+    left: -1000px;
+    opacity: 1;
     transition: all 0.5s ease;
   }
 
@@ -105,7 +106,6 @@
     left: 0;
     opacity: 0.8;
     transition: all 0.5s ease;
-    z-index: 1;
     padding-bottom: 25px;
     max-width: 200px;
   }

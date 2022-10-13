@@ -7,10 +7,18 @@
   line-height: 4rem;
 }
 
-.row {
+.hero-row {
+  display: flex;
+  justify-content: center;
   height: 100%;
   align-items: center;
   padding: 0 50px;
+}
+
+.hero-row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .hero-container > video {
@@ -22,21 +30,11 @@
   z-index: -1;
 }
 
-.column {
+.hero-col {
   width: 50%;
   float: left;
   justify-content: center;
   text-align: center;
-}
-
-.popup {
-  background-color: antiquewhite;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .hero-img {
@@ -54,7 +52,7 @@
   }
 }
 
-.column .presale-btn {
+.hero-col .presale-btn {
   padding: 8px 40px;
   border-radius: 50px;
   outline: none;
@@ -63,11 +61,12 @@
   margin: 10px !important;
 
   background-color: aqua;
+  border-width: 1px;
   color: #242424;
   border: 2px solid white;
   font-size: 20px;
   font-weight: 900;
-
+  text-decoration: none;
   animation: mymove 2s infinite alternate;
 }
 
@@ -98,8 +97,15 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .column {
+  .hero-row {
+    flex-direction: column;
+    /* background-color: beige; */
+  }
+
+  .hero-col {
     width: 100%;
+    padding: 0px;
+    margin: 0px;
   }
 
   .hero-img {
@@ -107,7 +113,7 @@
     max-height: 250px;
   }
 
-  .column .hero-btns > h1 {
+  .hero-col .hero-btns > h1 {
     font-size: 30px;
   }
 }
@@ -124,7 +130,7 @@
   }
 
   .hero-btns .btn {
-    margin: 0 auto;
+    margin: 0px auto;
   }
 
   .hero-container .hero-btns > h1 {
@@ -136,7 +142,7 @@
 @media screen and (max-width: 480px) {
   .hero-container .hero-btns {
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0px auto;
   }
 
   .hero-btns .btn {

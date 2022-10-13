@@ -9,8 +9,8 @@ function HeroSection() {
   return (
     <section className="hero-container" id="hero">
       <video width="100%" src="/videos/ratTunnel.mov" autoPlay loop muted />
-      <div className="row">
-        <div className="column">
+      <div className="hero-row">
+        <div className="hero-col">
           <img
             className="hero-img"
             alt="boredRatsLogo"
@@ -19,13 +19,13 @@ function HeroSection() {
           <br />
           <a
             type="button"
-            onclick="https://www.pinksale.finance/launchpad/0xdE15F292DE42647DEDbcC121Ad6831C13a337F36?chain=BSC"
+            href="https://www.pinksale.finance/launchpad/0xdE15F292DE42647DEDbcC121Ad6831C13a337F36?chain=BSC"
             className="presale-btn"
           >
             Presale
           </a>
         </div>
-        <div className="column">
+        <div className="hero-col">
           <div className="hero-btns">
             <h1>
               Welcome to the <br /> Bored Rat Maze Club
