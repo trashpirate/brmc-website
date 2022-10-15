@@ -1,10 +1,17 @@
 import React from "react";
 import "./About.css";
 import PanelItem from "./PanelItem";
+import CountdownTimer from "../countownTimer/CountdownTimer";
+
+const presaleDate = new Date("October 17, 2022 00:00:00");
 
 function About() {
   return (
     <section className="about" id="about">
+      <div className="countdown_container">
+        <h1>Presale</h1>
+        <CountdownTimer targetDate={presaleDate} />
+      </div>
       <div className="about_container">
         <h1>What is Bored Rat Maze Club?</h1>
         <p className="about_text">

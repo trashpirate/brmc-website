@@ -1,0 +1,124 @@
+.expired-notice {
+  text-align: center;
+  padding: 30px;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  margin: 0px auto;
+  width: fit-content;
+}
+
+.expired-notice > span {
+  font-family: "Press Start 2P", cursive;
+  font-size: 40px;
+  color: aqua;
+}
+
+.expired-notice > p {
+  font-size: 1.5rem;
+}
+
+.show-counter .countdown-link {
+  font-family: "Press Start 2P", cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px;
+  border: 2px solid aqua;
+  border-radius: 10px;
+
+  font-weight: 700;
+  font-size: 50px;
+  text-decoration: none;
+  color: aqua;
+  width: fit-content;
+  margin: 0px auto;
+}
+
+.show-counter .countdown {
+  padding: 0 10px 0 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* background-color: antiquewhite; */
+  height: fit-content;
+}
+
+.show-counter .countdown.danger {
+  color: #ff0000;
+}
+
+.show-counter .countdown > p {
+  font-family: "Press Start 2P", cursive;
+  line-height: 3rem;
+}
+
+.show-counter .countdown > span {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.presale-countdown-btn {
+  display: block;
+  width: fit-content;
+  padding: 8px 40px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 20px auto 0px auto;
+
+  background-color: aqua;
+  border-width: 1px;
+  color: #242424;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: none;
+  animation: mymove 2s infinite alternate;
+}
+
+@media only screen and (max-width: 768px) {
+  .expired-notice {
+    padding: 20px;
+  }
+
+  .expired-notice > span {
+    font-size: 25px;
+  }
+
+  .show-counter .countdown-link {
+    font-size: 35px;
+    line-height: 3rem;
+    padding: 15px;
+  }
+
+  .show-counter .countdown > span {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .expired-notice {
+    padding: 20px;
+  }
+
+  .expired-notice > span {
+    font-size: 20px;
+  }
+
+  .show-counter .countdown-link {
+    padding: 10px 0px;
+    font-size: 20px;
+    line-height: 1.2rem;
+  }
+
+  .show-counter .countdown > span {
+    padding: 0px;
+    font-size: 12px;
+    line-height: 1rem;
+  }
+}
