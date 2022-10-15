@@ -3,7 +3,7 @@ import "./About.css";
 import PanelItem from "./PanelItem";
 import CountdownTimer from "../countownTimer/CountdownTimer";
 
-const presaleDate = new Date("October 17, 2022 00:00:00");
+const presaleDate = new Date("October 16, 2022 19:00:00");
 
 function About() {
   return (
