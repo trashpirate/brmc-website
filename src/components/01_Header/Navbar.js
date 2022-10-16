@@ -71,7 +71,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Whitepaper - coming soon!
+                Whitepaper
               </Link>
             </li>
           </ul>
