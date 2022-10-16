@@ -66,13 +66,13 @@ function Navbar() {
               </AnchorLink>
             </li>
             <li className="nav-item">
-              <Link
+              <a
                 href="https://brmc.gitbook.io/whitepaper/"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Whitepaper
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
